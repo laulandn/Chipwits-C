@@ -1,0 +1,51 @@
+ChipWits C Project Structure
+============================
+
+ChipWits/
+├── README.md                         # Project overview and build instructions
+├── LICENSE                           # License file
+├── chipwits_outstanding_work.md      # Notes on what isn't yet finished
+├── project_structure.txt             # This file
+├── Documentation/
+│   ├── function_mapping.md           # C Functions to Forth Code Mapping
+│   ├── module_dependencies.md        # Module dependency tree
+│   └── original_forth_source/        # Original Forth source files
+│       ├── ChipWits.forth
+│       ├── Editor Blocks.forth
+│       ├── EXTENSION.forth
+│       └── FORTH Blocks.forth
+├── Think C Project/
+│   ├── ChipWits.π                    # Think C project file
+│   ├── Source/
+│   │   ├── main.c                    # Main application entry point
+│   │   ├── game_controller.c         # Game logic controller
+│   │   ├── robot_state.c             # Robot state management
+│   │   ├── robot_actions.c           # Robot action execution
+│   │   ├── room_manager.c            # Room and object management
+│   │   ├── graphics_manager.c        # Graphics and drawing
+│   │   ├── sound_manager.c           # Sound effects
+│   │   ├── workshop_editor.c         # Robot code Editor
+│   │   ├── file_manager.c            # File I/O operations
+│   │   ├── game_constants.c          # Game data and constants
+│   │   ├── test_main.c               # Test harness (optional)
+│   │   ├── chipwits_types.h          # Core data structures and constants
+│   │   ├── game_controller.h         # Game controller interface
+│   │   ├── robot_state.h             # Robot state interface
+│   │   ├── robot_actions.h           # Robot actions interface
+│   │   ├── room_manager.h            # Room manager interface
+│   │   ├── graphics_manager.h        # Graphics interface
+│   │   ├── sound_manager.h           # Sound interface
+│   │   ├── workshop_editor.h         # Robot code edirot interface
+│   │   ├── file_manager.h            # File I/O interface
+│   │   ├── game_constants.h          # Constants interface
+│   │   └── resources.h               # Resource definitions
+│   └── Resources/
+│       └── ChipWits.r                # Resource definition file
+│           ├── Graphics/                 # Game graphics resources
+│           ├── Icons/                    # Icon resources
+│           ├── Sprites/                  # Game sprites
+│           └── Sounds/                   # Sound resources
+│
+Build Notes:
+- The Think C project file should include all .c files in the Source directory
+- Test harness (test_main.c) is optional and used for unit testing
