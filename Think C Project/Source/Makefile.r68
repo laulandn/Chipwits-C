@@ -7,7 +7,9 @@ RANLIB=m68k-apple-macos-ranlib
 #AR=powerpc-apple-macos-ar
 #RANLIB=powerpc-apple-macos-ranlib
 
+
 CFLAGS= 
+
 
 OBJS=$(subst .c,.o,$(wildcard *.c))
 
@@ -16,7 +18,15 @@ OBJS=$(subst .c,.o,$(wildcard *.c))
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 
-all: $(OBJS)
+all:	Chipwits-C
+
+
+Chipwits-C:	$(OBJS)
+	$(CXX) -o Chipwits-C.code.bin $(OBJS) $(LDFLAGS)
+	../../bin2app.sh Chipwits-C
+#	$(CXX) -o Chipwits-C $(OBJS) $(LDFLAGS)
+#	../../xcoff2app.sh Chipwits-C
+
 	
 clean:
 	rm -f *.o
