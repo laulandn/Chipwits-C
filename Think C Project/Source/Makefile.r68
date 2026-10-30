@@ -29,4 +29,4 @@ Chipwits-C:	$(OBJS)
 
 	
 clean:
-	rm -f *.o
+	rm -f *.o *.APPL *.bin *.gdb *.dsk
