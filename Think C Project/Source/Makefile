@@ -30,4 +30,4 @@ Chipwits-C:	$(OBJS)
 	
 clean:
 	rm -f *.o *.APPL *.bin *.gdb *.dsk
-	rm -f CW CW_stats
+#	rm -f CW CW_stats
