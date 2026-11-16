@@ -7,5 +7,33 @@ Going to InitGameConstants()...
 Going to InitRobotState()...
 Going to InitSoundManager()...
 Going to LoadChipWit()...
-LoadChipWitProgram(1,&gRobotProgram) failed!
-LoadChipWit(1) failed!
+Going to InitializeMac()...
+Going to InitGraphics()...
+GetResource('ICN#',200) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',201) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',202) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',203) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',204) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',205) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',206) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',207) failed!
+LoadAllSprites() res not found!
+GetResource('ICN#',210) failed!
+GetResource('ICN#',211) failed!
+GetResource('ICN#',212) failed!
+GetResource('ICN#',213) failed!
+GetResource('ICN#',214) failed!
+GetResource('ICN#',215) failed!
+GetResource('ICN#',216) failed!
+GetResource('ICN#',217) failed!
+GetResource('ICN#',218) failed!
+GetResource('ICN#',220) failed!
+LoadAllSprites() failed!
+InitGraphics() failed!

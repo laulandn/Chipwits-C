@@ -24,8 +24,7 @@ all:	Chipwits-C
 Chipwits-C:	$(OBJS)
 	$(CXX) -o Chipwits-C.code.bin $(OBJS) $(LDFLAGS)
 	../../bin2app.sh Chipwits-C
-#	$(CXX) -o Chipwits-C $(OBJS) $(LDFLAGS)
-#	../../xcoff2app.sh Chipwits-C
+
 
 	
 clean:
